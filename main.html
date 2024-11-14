@@ -7,12 +7,13 @@
 </head>
 <body>
     <hearder>
-        <h1>Explora mi recetario</h1>>
+        <h1>Explora mi recetario</h1>
         <nav>
             <ul>
                 <li><a href="#Platos">Platos Fuertes</a></li>
                 <li><a href="#Postres">Postres</a></li>
                 <li><a href="#GlutenFree">Sin Gluten</a></li>
+                <li><a href="#NuevasRecetas">Nuevas Recetas</a></li>
             </ul>
         </nav>
     </hearder>
@@ -25,6 +26,34 @@
          </section>
 
          <section id="GLutenFree">
+         </section>
+
+         <section id="NuevasRecetas">
+            <h2>Comparte tu receta favorita</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Tu nombre" required>
+
+                <label for="receta">Título de la receta</label>
+                <input type="text" id="receta" placeholder="Nombre de la receta" required><br><br>
+
+                <label for="seccion">Sección a la que pertenece la receta</label>
+                <select id="seccion" required>
+                    <option value="" selected disabled>Selecciona una opción</option>
+                    <option>Platos Fuertes</option>
+                    <option>Postres</option>
+                    <option>Sin Gluten</option>
+                </select><br><br>
+
+                <label for="descripcion">Descripción breve de la receta</label><br><br>
+                <textarea
+                    id="descripcion"
+                    rows="10"
+                    cols="30"
+                    placeholder="Describe brevemente tu receta"
+                    required
+                ></textarea>
+            </form>
          </section>
 
          <footer>
