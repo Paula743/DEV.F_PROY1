@@ -34,28 +34,30 @@
         <img id="tinga" src="../img/tinga.jpg", alt="Esta es una imagen", title="tinga", width="500px">
     </main>
     <footer>
-        <fieldset>
-            <legend>Califica la receta</legend>
-               <label for="1estrella">★</label>
-               <input type="radio" name="calificacion" id="1estrella"><br>
-               <label for="2estrellas">★★</label>
-               <input type="radio" name="calificacion" id="2estrellas"><br>
-               <label for="3estrellas">★★★</label>
-               <input type="radio" name="calificacion" id="3estrellas"><br>
-               <label for="4estrellas">★★★★</label>
-               <input type="radio" name="calificacion" id="4estrellas"><br>
-               <label for="5estrellas">★★★★★</label>
-               <input type="radio" name="calificacion" id="5estrellas"><br><br>
-               <label for="comentario">Comentario</label><br>
-                <textarea
-                    id="comentario"
-                    cols="150"
-                    placeholder="Deja tu comentario"
-                ></textarea>
-                <button type="submit" style="background-color: green; color: white">
-                    <span class="material-icons">send</span>Enviar
-                </button>
-        </fieldset>
+        <form>
+            <fieldset>
+                <legend>Califica la receta</legend>
+                   <label for="1estrella">★</label>
+                   <input type="radio" name="calificacion" id="1estrella" required><br>
+                   <label for="2estrellas">★★</label>
+                   <input type="radio" name="calificacion" id="2estrellas"><br>
+                   <label for="3estrellas">★★★</label>
+                   <input type="radio" name="calificacion" id="3estrellas"><br>
+                   <label for="4estrellas">★★★★</label>
+                   <input type="radio" name="calificacion" id="4estrellas"><br>
+                   <label for="5estrellas">★★★★★</label>
+                   <input type="radio" name="calificacion" id="5estrellas"><br><br>
+                   <label for="comentario">Comentario</label><br>
+                    <textarea
+                        id="comentario"
+                        cols="150"
+                        placeholder="Deja tu comentario"
+                    ></textarea>
+                    <button type="submit" style="background-color: green; color: white">
+                        <span class="material-icons">send</span>Enviar
+                    </button>
+            </fieldset>
+        </form>
         <p>&copy; 2024. Paula Flores. Todos los derechos reservados</p>
     </footer>
 </body>
