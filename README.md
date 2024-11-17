@@ -3,7 +3,7 @@
 ## Descripción 📖
 
 Este es un proyecto web que permite a los usuarios compartir y descubrir recetas de cocina. Los usuarios pueden agregar recetas, visualizarlas, calificarlas y dejar comentarios. 
-El sitio organiza las recetas en tres categorías: **Platos fuertes**, **Postres** y **Sin gluten**. 
+El sitio organiza las recetas en tres categorías: **Platos Fuertes**, **Postres** y **Sin Gluten**. 
 La idea es crear una plataforma interactiva donde los usuarios puedan aprender nuevas recetas y compartir sus favoritas con la comunidad. 🌍
 
 ## Características ✨
@@ -12,7 +12,7 @@ La idea es crear una plataforma interactiva donde los usuarios puedan aprender n
 - **Calificación**: Los usuarios pueden calificar las recetas con estrellas ⭐ para ayudar a otros a decidir qué recetas probar.
 - **Comentarios**: Los usuarios pueden dejar comentarios 💬 sobre las recetas, ofreciendo sugerencias, consejos o comentarios generales.
 - **Clasificación por categorías**: Las recetas están organizadas en tres categorías principales:
-  - **Platos fuertes** 🍝
+  - **Platos Fuertes** 🍝
   - **Postres** 🍰
-  - **Sin gluten** 🍞🚫
+  - **Sin Gluten** 🍞🚫
 - **Interfaz amigable**: El sitio web tiene un diseño intuitivo que facilita la navegación por las recetas. 💻
