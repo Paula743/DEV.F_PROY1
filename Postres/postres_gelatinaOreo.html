@@ -1,0 +1,77 @@
+<!-- Receta de gelatina de oreo, forma parte de la sección Postres -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Gelatina de Oreo</title>
+</head>
+<body>
+    <header>
+        <h1>RECETA DE GELATINA DE OREO Y CHOCOLATE</h1>
+        <h3>Compartida por Juan Pablo Flores</h3>
+        <label>★★★★★ 5 estrellas</label><br>
+        <span class="material-icons">timer</span><label>30 minutos</label><br>
+        <span class="material-icons">person</span><label>10 porciones</label>
+    </header>
+    <main>
+        <h2>Ingredientes para la gelatina de chocolate</h2>
+        <ul>
+            <li>1 taza de leche evaporada caliente</li>
+            <li>2 tazas de jarabe de chocolate</li>
+            <li>2 cucharadas de vainilla</li>
+            <li>&frac12; taza de chocolate oscuro en polvo</li>
+            <li>3 sobres de grenetina hidratada (7g c/u)</li>
+            <li>4 tazas de leche de vaca caliente</li>
+        </ul>
+        <h2>Ingredientes para la gelatina de Oreo</h2>
+        <ul>
+            <li>4 tazas de leche de vaca caliente</li>
+            <li>3 sobres de grenetina hidratada (7g c/u)</li>    
+            <li>4 tazas de galleta OREO troceadas</li>    
+        </ul>
+        <h2>Procedimiento</h2>
+        <ol>
+            <li>Para la gelatina de chocolate, en un bowl mezcla la leche evaporada caliente con el jarabe de chocolate, 
+                la vainilla y el chocolate oscuro hasta que se incorporen todos los ingredientes. Agrega la grenetina hidratada.</li>
+            <li>Vierte la mezcla en un molde para gelatina y refrigera durante 30 minutos o hasta que cuaje.</li>
+            <li>Para la gelatina de oreo, en un bowl mezcla la leche caliente con el azúcar, la esencia de vainilla y la 
+                grenetina hasta que se incorporen los ingredientes. Enfría ligeramente.</li>
+            <li>Para la gelatina de chocolate, en un bowl mezcla la leche evaporada caliente con el jarabe de chocolate, la 
+                vainilla y el chocolate oscuro hasta que se incorporen todos los ingredientes. Agrega la grenetina hidratada.</li>
+            <li>Retira el molde que está en refrigeración y acomoda las galletas oreo troceadas, rellena con la mezcla de gelatina 
+                de leche y refrigera hasta que cuaje. Desmolda y sirve.</li>
+        </ol> 
+        <img id="gelatinaOreo" src="../img/gelatinaOreo.png", alt="Esta es una imagen", title="Gelatina de Oreo y chocolate", width="500px">
+    </main>
+    <footer>
+        <!-- Formulario para calificar la receta -->
+        <form>
+            <fieldset>
+                <legend>Califica la receta</legend>
+                   <label for="1estrella">★</label>
+                   <input type="radio" name="calificacion" id="1estrella" required><br>
+                   <label for="2estrellas">★★</label>
+                   <input type="radio" name="calificacion" id="2estrellas"><br>
+                   <label for="3estrellas">★★★</label>
+                   <input type="radio" name="calificacion" id="3estrellas"><br>
+                   <label for="4estrellas">★★★★</label>
+                   <input type="radio" name="calificacion" id="4estrellas"><br>
+                   <label for="5estrellas">★★★★★</label>
+                   <input type="radio" name="calificacion" id="5estrellas"><br><br>
+                   <label for="comentario">Comentario</label><br>
+                    <textarea
+                        id="comentario"
+                        cols="150"
+                        placeholder="Deja tu comentario"
+                    ></textarea>
+                    <button type="submit" style="background-color: green; color: white">
+                        <span class="material-icons">send</span>Enviar
+                    </button>
+            </fieldset>
+        </form>
+        <p>&copy; 2024. Paula Flores. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
